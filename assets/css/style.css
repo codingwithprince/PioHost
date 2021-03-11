@@ -1,0 +1,53 @@
+/* ====== Font import ======*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+/* === Global css === */
+:root{
+    --black-900: #000000;
+    --black-400: #555555;
+    --black-100: #f7f7f7;
+    --black-000: #ffffff;
+}
+h2{
+    padding: 20px 0;
+    color: var(--black-900);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.section-padding{
+    padding: 50px;
+}
+/* === header-section === */
+.header-section .navbar{
+    padding: 40px 50px;
+}
+.navbar-brand{
+    font-size: 25px;
+    color: var(--black-900);
+    font-weight: 700;
+}
+.nav-item{
+    margin: 0 15px;
+}
+.nav-item a{
+    font-size: 20px;
+    color: var(--black-400);
+    font-weight: 500;
+}
+
+/* === Project secion === */
+.project-text p{
+    padding: 50px 30px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--black-400);
+}
+.project-img img{
+    max-width: 100%;
+}
