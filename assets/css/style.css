@@ -20,6 +20,12 @@ body{
 .section-padding{
     padding: 20px 80px; 
 }
+.section-title h2{
+    font-size: 50px;
+    font-weight: 600;
+    color: var(--h3);
+    padding-bottom: 20px;
+}
 /* ========== 
 header
 ============== */
@@ -181,6 +187,145 @@ Our service section ends
     color: var(--black-500);
     border: 1px solid var(--main-color);
 }
+.service-section{
+    padding: 0 30px;
+}
+.service-item{
+    margin-top: 20px;
+}
+.service-item img{
+    height: 80px;
+    width: 80px;
+}
+.service-item h3{
+    padding-top: 25px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.service-item p{
+    justify-content: center;
+    padding-top: 25px;
+    font-size: 12px;
+    font-weight: 300;
+    padding: 0 20px;
+}
+.service-item{
+    margin-top: 25px;
+}
 /* ========
 Our service section ends
+=============== */
+
+
+/* ========
+Price &amp; plan section starts
+=============== */
+.price-plan{
+    background-color: #f7f7f7;
+}
+.price-plan p{
+    margin: 50px;
+    padding: 20px 0;
+    font-size: 13px;
+    font-weight: 500;
+}
+.price-plan p a{
+    text-decoration: underline;
+}
+.section-title {
+    padding-top: 50px;
+}
+.section-title p{
+    font-size: 12px;
+    font-weight: 300;
+    padding: 0 25%;
+}
+.price-item{
+    margin-top: 30px;
+    background-color: #ffffff;
+    padding: 80px 20px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.5);
+}
+.price-head img{
+    height: 90px;
+    width: 80px;
+}
+.price-head h3{
+    padding: 18px 0;
+    font-size: 26px;
+    font-weight: 500;
+    color: var(--black-900);
+}
+.price-body h4{
+    text-align: center;
+    font-size: 12px;
+    font-weight: 300;
+    color: var(--black-500);
+}
+.price-body span{
+    font-size: 70px;
+    font-weight: 500;
+    color: var(--main-color);
+}
+.price-body p{
+    padding: 15px 15px;
+    font-size: 13px;
+    text-align: center;
+    color: var(--black-500);
+    margin-bottom: 60px;
+}
+.price-footer a{
+    padding: 15px 40px;
+    text-align: center;
+    border: 1px solid var(--main-color);
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--black-900);
+    border-radius: 30px;
+    transition: 0.5s all ease;
+}
+.price-footer a:hover{
+    background-color: var(--main-color);
+    color: #ffffff;
+}
+
+/* ========
+Price &amp; plan section ends
+=============== */
+
+/* ========
+FAQ section starts
+=============== */
+
+.faq-section{
+    background-color: #3200cc;
+}
+.faq-left{
+    padding:100px 0;
+}
+.faq-left img{
+    height: 500px;
+    max-width: 100%;
+}
+.faq-right{
+    padding:100px 0;
+}
+.faq-header {
+    padding: 15px;
+}
+.faq-header span,p{
+    color: #ffffff;
+    font-size: 17px;
+    padding: 15px 0;
+    font-weight: 300;
+}
+.faq-header h2{
+    font-size: 40px;
+    color: #ffffff;
+    font-weight: 500;
+}
+/* ========
+FAQ section ends
 =============== */
