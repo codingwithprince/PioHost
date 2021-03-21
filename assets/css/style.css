@@ -428,3 +428,56 @@ WCU starts
 /* ========
 WCU ends
 =============== */
+
+.testimonials{
+    background-color: #3200cb;
+    padding-bottom: 80px;
+}
+.section-title h2{
+    color: #fff;
+    font-size: 50px;
+    font-weight: 600;
+}
+.text-test p{
+    font-size: 15px;
+    font-weight: 300;
+}
+.testi-items{
+    background-color: #fff;
+    color: var(--black-500);
+    padding: 20px 20px;
+}
+.fa-star{
+    color: orange;
+}
+.text span{
+    font-size: 15px;
+    font-weight: 600;
+    padding-left: 60px;
+    color: var(--main-color);
+}
+.testi-body p{
+    font-size: 13px;
+    font-weight: 300;
+    color: var(--black-500);
+    line-height: 26px;
+    padding: 20px 0;
+}
+.clients-info{
+    padding: 20px 20px;
+}
+.clients-info img{
+    height: 65px;
+    width: 65px;
+}
+.clients-info p{
+    color: var(--black-500);
+}
+.clients-text {
+    padding-left: 20px;
+}
+.clients-text h4{
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--black-900);
+}
