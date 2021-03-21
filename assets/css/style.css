@@ -224,6 +224,7 @@ Price &amp; plan section starts
     background-color: #f7f7f7;
 }
 .price-plan p{
+    color: var(--black-500);
     margin: 50px;
     padding: 20px 0;
     font-size: 13px;
@@ -326,6 +327,104 @@ FAQ section starts
     color: #ffffff;
     font-weight: 500;
 }
+.accordion-item{
+    border: 1px solid #fff;
+    cursor: pointer;
+}
+.accordion-header h4{
+    font-size: 15px;
+    font-weight: 500;
+    color: #f7f7f7;
+    padding: 20px 60px;
+    margin: 0;
+}
+.accordion-body p{
+    font-size: 13px;
+    font-weight: 400;
+    color: #f7f7f7;
+    padding: 10px 60px;
+    padding-bottom: 20px;
+    margin: 0;
+    justify-content: center;
+}
 /* ========
 FAQ section ends
+=============== */
+
+/* ========
+WCU starts
+=============== */
+.wcu-section p{
+    font-size: 12px;
+    font-weight: 300;
+    color: var(--black-500);
+    text-align: center;
+}
+.wcu-item{
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+}
+.wcu-header img{
+    height: 150px;
+    max-width: 250px;
+}
+.rank{
+    margin-top: 60px;
+    margin-bottom: 60px;
+    position: relative;
+}
+.rank h3{
+    font-size: 20px;
+    font-weight: 500;
+    position: absolute;
+    border: 1px solid var(--main-color);
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    top: 20%;
+    left: 30%;
+    margin: 50px;
+    line-height: 50px;
+    transition: 0.5s all ease;
+}
+.rank h3.active{
+    background-color: var(--main-color);
+    color: #fff;
+}
+.rank h3.active:hover{
+    background-color: #fff;
+    color: var(--main-color);
+}
+.rank h3:hover{
+    background-color: var(--main-color);
+    color: #fff;
+}
+.rank.line-right::before{
+    content: '';
+    position: absolute;
+    height: 1px;
+    width: 94%;
+    background-color:var(--main-color);
+    left: 59%;
+    top:75px;
+    z-index: -1;
+}
+.wcu-info{
+    margin-top: 240px;
+    text-align: center;
+}
+.wcu-info h3{
+    font-size: 25px;
+    font-weight: 600;
+    color: var(--black-900);
+}
+.wcu-info p{
+    font-size: 15px;
+    font-weight: 300;
+    padding: 20px 30px;
+    color: var(--black-500);
+}
+/* ========
+WCU ends
 =============== */
