@@ -35,6 +35,7 @@ header
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    overflow-x: hidden;
 }
 .navbar-brand img{
     height: 40px;
@@ -60,6 +61,7 @@ main body text
 .main-body-text{
     padding-top: 20px;
   padding-bottom: 50px;
+  overflow-x: hidden;
 }
 .main-body-text p{
     font-size: 15px;
@@ -99,6 +101,8 @@ main body text
 search section starts
 =============== */
 .search-section form{
+    overflow-x: hidden;
+ 
     padding: 10px 50px;
 }
 .search-section input {
@@ -628,6 +632,28 @@ WCU ends
 }
 .piohost-card-footer{
     background-color: #3400c1;
+}
+.border-down{
+    border-bottom: 2px solid var(--main-color);
+}
+.list-1 h3{
+    padding-top: 40px;
+    font-size: 25px;
+    font-weight: 500;
+    color: #f7f7f7;
+    border-top: 1px solid var(--main-color);
+    border-radius: 50%;
+}
+.list-1 ul{
+    padding: 50px 30px;
+}
+.list-1 ul li{
+    padding-bottom: 20px;
+    font-size: 15px;
+    font-weight: 300;
+    color: #fff;
+    list-style: none;
+    text-align: left;
 }
 /* ====== footer section ends
 ==============================
