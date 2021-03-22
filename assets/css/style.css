@@ -18,7 +18,7 @@ body{
 }
 
 .section-padding{
-    padding: 20px 80px; 
+    padding: 80px 80px; 
 }
 .section-title h2{
     font-size: 50px;
@@ -481,3 +481,126 @@ WCU ends
     font-weight: 500;
     color: var(--black-900);
 }
+
+/* ====== news feeds section starts
+==============================
+=========== */
+.news-feed-section{
+    padding: 50px 0;
+}
+.news-text p{
+    text-align:  center;
+    font-size: 15px;
+    font-weight: 300;
+    color: var(--black-500);
+}
+.news-title h2{
+    font-size: 50px;
+    font-weight: 600;
+    color: var(--h3);
+    padding-bottom: 20px;
+}
+.news-img img{
+    padding: 10px;
+    max-width: 100%;
+}
+.news-header{
+    padding: 20px 15px;
+}
+.profile-date img{
+    height: 50px;
+    width: 50px;
+}
+.profile-date span{
+    font-size: 15px;
+    font-weight: 500;
+    text-align: center;
+    color:var(--main-color);
+    padding: 10px 20px;
+}
+.profile-date h5{
+    font-size: 13px;
+    font-weight: 300;
+    text-align: center;
+    color:var(--black-500);
+    padding: 15px 20px;
+}
+.news-body{
+    padding: 10px 20px;
+}
+.news-body h3{
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--h3);
+}
+.news-body p{
+    font-size: 13px;
+    font-weight: 300;
+    color: var(--black-500);
+}
+
+.last{
+    padding-bottom: 100px;
+    border-bottom: 1px solid #333333;
+}
+/* ====== news feeds section ends
+==============================
+=========== */
+
+/* ====== footer section starts
+==============================
+=========== */
+
+.footer-section{
+    background-image: url('../images/footer-bg.png');
+}
+.first-row{
+    padding-bottom: 100px;
+    border-bottom: 2px solid var(--main-color);
+}
+.footer-left-text p{
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #f7f7f7;
+}
+.footer-left-text h2{
+    font-size: 30px;
+    font-weight: 500;
+    text-transform: capitalize;
+    color: #fff;
+} 
+.footer-price p{
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #f7f7f7;
+}
+.footer-price h2{
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: capitalize;
+    color: #fff;
+}
+.footer-price h2 span{
+    font-size: 15px;
+    font-weight: 300;
+    text-transform: lowercase;
+    color: #fff;
+}
+.footer-btn{
+    margin-top: 50px;
+}
+.btn-01{
+    font-size: 15px;
+    font-weight: 500;
+    padding: 20px 40px;
+    background-color: #5f29f9;
+    color: #f7f7f7;
+    border-radius: 30px;
+    margin: 0;
+}
+
+/* ====== footer section ends
+==============================
+=========== */
