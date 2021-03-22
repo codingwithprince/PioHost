@@ -18,7 +18,7 @@ body{
 }
 
 .section-padding{
-    padding: 80px 80px; 
+    padding: 80px 0; 
 }
 .section-title h2{
     font-size: 50px;
@@ -433,11 +433,6 @@ WCU ends
     background-color: #3200cb;
     padding-bottom: 80px;
 }
-.section-title h2{
-    color: #fff;
-    font-size: 50px;
-    font-weight: 600;
-}
 .text-test p{
     font-size: 15px;
     font-weight: 300;
@@ -601,6 +596,39 @@ WCU ends
     margin: 0;
 }
 
+.footer-bottom{
+    margin: 20px 0;
+    padding: 20px 0;
+}
+.piohost-card{
+    background-color: #000f44;
+    padding: 50px 50px;
+}
+.piohost-card-header img{
+    max-width: 150px;
+}
+.piohost-card-header p{
+    font-size: 13px;
+    font-weight: 300;
+    color: #f7f7f7;
+    padding: 20px 0;
+    opacity: 50%;
+}
+.piohost-card-body{
+    opacity: 50%;
+}
+.piohost-card-body ul li{
+    padding: 5px;
+    list-style: none; 
+}
+.piohost-card-body ul li span{
+    font-size: 15px;
+    font-weight: 300;
+    color: #f7f7f7;
+}
+.piohost-card-footer{
+    background-color: #3400c1;
+}
 /* ====== footer section ends
 ==============================
 =========== */
